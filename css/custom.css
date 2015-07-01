@@ -1,4 +1,8 @@
 /*Top navigation section*/
+.first{
+	position: relative;
+}
+
 .first-navigation {
 	border:2px solid #f1f1f1;
 	background: transparent;
@@ -57,4 +61,9 @@ ul.bxslider {
 	  width: 100%;
 	  z-index: 1;
 	  background: rgba(255, 255, 255, 0.7);
+}
+
+.square {
+	height: 84px;
+	background-color: rgba(255, 255, 255, 0.8);
 }

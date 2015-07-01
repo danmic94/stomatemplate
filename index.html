@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css">
   </head>
   <body>
-	<div class="container" style="position: relative">
+	<div class="container first">
 		<nav class="navbar navbar-default first-navigation">
       		<a class="navbar-brand align-logo" href="http://www.google.com" target="_blank">
         		<img alt="Logo" src="img/logo/logo.png" />
@@ -46,12 +46,17 @@
     
     <div class="only-slider">
     	<ul class="bxslider">
-    	<li><img src="img/main-slider/doctori.png" title=" fdsa fads fads fdsafasd<a href='#'>read more</a>" /></li>
-		  <li><img src="img/main-slider/02.jpg" title=" fdsa fads fads fdsafasd" /></li>
+		  <li><img src="img/main-slider/doctori.png" /></li>
+		  <li><img src="img/main-slider/02.jpg" /></li>
 		  <li><img src="img/main-slider/03.jpg" /></li>
 		  <li><img src="img/main-slider/04.jpg" /></li>
 		</ul>
-		<div id="prev_selector"></div>
+		<div id="prev_selector" class="square">
+			<span class="glyphicon glyphicon-menu-left"></span>
+		</div>
+		<div id="next_selector" class="square">
+			<span class="glyphicon glyphicon-menu-right"></span>
+		</div>
     </div>
 
 
@@ -64,8 +69,11 @@
     	$(document).ready(function(){
     		$('.bxslider').bxSlider({
     		mode: 'fade',
-    		captions: true,
-    		pager: false
+    		captions: false,
+    		pager: false,
+    		infiniteLoop: true,
+    		prevSelector: '#prev_selector',
+    		nextSelector: '#<span class="glyphicon glyphicon-menu-right"></span>next_selector',
     		});
     	 });
     </script>
