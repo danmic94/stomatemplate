@@ -1,14 +1,44 @@
 /*Top navigation section*/
 .first-navigation {
 	border:2px solid #f1f1f1;
+	background: transparent;
+	border-top: none;
 }
 
-div.first-navigation img {
-	padding: 10px;
-	padding-right: 0;
+.align-logo {
+	padding-left: 20px;
+	margin-bottom: 10px;
 }
 
-div.first-navigation h3 {
+.company-name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	font-weight: 300;
+	font-style: normal;
+	color: #8d8d8d;
 	display: inline-block;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.align-menu {
 	margin-top: 15px;
+	margin-right: 20px;
+}
+ul.custom-buttons>li {
+	border-radius: 5px;
+	/*padding: 10px;*/
+}
+
+ul.custom-buttons a {
+	color: #abacac;
+}
+ul.custom-buttons>li:hover {
+	background-color: #3498db;
+	color: white;
+}
+
+ul.custom-buttons a:hover {
+	text-decoration: none;
+	color: white;
 }
