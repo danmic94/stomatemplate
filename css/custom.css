@@ -27,7 +27,7 @@
 }
 ul.custom-buttons>li {
 	border-radius: 5px;
-	/*padding: 10px;*/
+	color: #b2b3b3;
 }
 
 ul.custom-buttons a {
@@ -38,7 +38,23 @@ ul.custom-buttons>li:hover {
 	color: white;
 }
 
-ul.custom-buttons a:hover {
+ul.custom-buttons>a:hover {
 	text-decoration: none;
-	color: white;
+}
+
+.bx-viewport {
+	left: 0 !important;
+	border: 0 !important;
+}
+
+ul.bxslider {
+	padding: 0;
+}
+
+.first-navigation {
+	  position: absolute;
+	  top: 0;
+	  width: 100%;
+	  z-index: 1;
+	  background: rgba(255, 255, 255, 0.7);
 }
