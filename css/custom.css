@@ -132,6 +132,10 @@ ul.bxslider {
 	background-color: #3498db;
 }
 
+.button-caption:hover {
+	background-color: #e06ca0;
+}
+
 /**************************
 	Main content section *
 *************************/
@@ -185,6 +189,10 @@ ul.bxslider {
 	font-size: 14px;
 }
 
+p.justify {
+	text-align: justify;
+}
+
 .panel-default>.panel-heading{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -192,10 +200,14 @@ ul.bxslider {
 	color: #969696;
 }
 
+div.main-acordion > div.panel{
+	border: none;
+}
+
 .custompanel {
 	background-color: white !important;
 	border-radius: 5px;
-	border: 0.8px solid #e3e3e3 !important;
+	border: 0.8px solid #e3e3e3 ;
 }
 
 .main-acordion a {
@@ -232,6 +244,6 @@ ul.bxslider {
 	border-color: #19af92;
 }
 
-.red { border-color: #e78cb5;}
-.purple { border-color: #b07cc5;}
-.green { border-color: #75dda1;}
+.colapse-noborder {
+	border-style: none;
+}
