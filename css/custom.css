@@ -183,7 +183,7 @@ ul.bxslider {
 
 .greyh3 {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	font-style: normal;
 	color: #c0c0c0;
 	font-size: 14px;
@@ -227,7 +227,7 @@ div.main-acordion > div.panel{
 	color: #b07cc5;
 }
 .hoverpanel4:hover {
-	border-color: #75dda1;
+	border-color: #0221a1;
 	color: #75dda1;
 }
 .hoverpanel5:hover {
@@ -238,7 +238,7 @@ div.main-acordion > div.panel{
 	border-color: aquamarine;
 }
 .hoverpanel7:hover {
-	border-color: mistyrose;
+	border-color: hotpink;
 }
 .hoverpanel8:hover {
 	border-color: #19af92;
@@ -247,3 +247,22 @@ div.main-acordion > div.panel{
 .colapse-noborder {
 	border-style: none;
 }
+
+/*Cards Customization*/
+.card {
+	border: 2px solid #e3e3e3;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.imagecard {
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+div.card > h4 {
+	display: inline-block;
+	margin: 0;
+}
+
