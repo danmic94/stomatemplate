@@ -1,5 +1,7 @@
-/*Top navigation section*/
-.first{
+/*******************************
+	Top Navigation and Slider *
+******************************/
+.first-section{
 	position: relative;
 }
 
@@ -67,3 +69,169 @@ ul.bxslider {
 	height: 84px;
 	background-color: rgba(255, 255, 255, 0.8);
 }
+
+/*Aligning slider-buttons with position absolute for */
+
+#left {
+	float: left;
+	position: absolute;
+	top: 55%;
+	margin-left: 25px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+}
+
+#right {
+	float: right;
+	position: absolute;
+	z-index: 2;
+	top: 55%;
+	right: 0;
+	margin-right: 25px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+}
+
+/*Custom caption for main slider*/
+.caption1{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    z-index:10;
+    width: 100%;
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+}
+
+#logo-caption {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.text-caption {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+.button-caption {
+	border: none;
+	margin-left: 20px;
+	background-color: #3498db;
+}
+
+/**************************
+	Main content section *
+*************************/
+.first {
+	margin-top: 75px;
+}
+
+.ring{
+	display: inline-block;
+	text-align: left;
+    width:90px;
+    height:90px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+
+/*Ring Colors*/
+.red { border-color: #e78cb5;}
+.purple { border-color: #b07cc5;}
+.green { border-color: #75dda1;}
+
+/*Aligning the icons in circles*/
+.align-user {
+	margin-left: 31%;
+	margin-top: 28%;
+}
+
+.align-bulb {
+	margin-left: 36%;
+	margin-top: 32%;
+}
+
+.align-like {
+	margin-left: 31%;
+	margin-top: 28%;
+}
+
+.blueh3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #7eb7e5;
+	font-size: 17px;
+}
+
+.greyh3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #c0c0c0;
+	font-size: 14px;
+}
+
+.panel-default>.panel-heading{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #969696;
+}
+
+.custompanel {
+	background-color: white !important;
+	border-radius: 5px;
+	border: 0.8px solid #e3e3e3 !important;
+}
+
+.main-acordion a {
+	text-decoration: none;
+}
+
+.hoverpanel1:hover {
+	border-color: #00aaa9;
+	color: #00aaa9;
+}
+.hoverpanel2:hover {
+	border-color: #e78cb5;
+	color: #e78cb5;
+}
+.hoverpanel3:hover {
+	border-color: #b07cc5;
+	color: #b07cc5;
+}
+.hoverpanel4:hover {
+	border-color: #75dda1;
+	color: #75dda1;
+}
+.hoverpanel5:hover {
+	border-color: #00ce31;
+	color: #00ce31;
+}
+.hoverpanel6:hover {
+	border-color: aquamarine;
+}
+.hoverpanel7:hover {
+	border-color: mistyrose;
+}
+.hoverpanel8:hover {
+	border-color: #19af92;
+}
+
+.red { border-color: #e78cb5;}
+.purple { border-color: #b07cc5;}
+.green { border-color: #75dda1;}
