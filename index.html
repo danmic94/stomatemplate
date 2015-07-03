@@ -198,7 +198,7 @@
 			        <div class="panel panel-default  hoverpanel1">
 			            <div class="panel-heading custompanel">
 			                <h4 class="panel-title">
-			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Cardiac Clinic</a>
+			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Cardiac Clinic<span class="glyphicon glyphicon-plus pull-right"></span></a>
 			                </h4>
 			            </div>
 			            <div id="collapseOne" class="panel-collapse collapse in">
@@ -210,7 +210,7 @@
 			        <div class="panel panel-default hoverpanel2">
 			            <div class="panel-heading custompanel">
 			                <h4 class="panel-title">
-			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Pediatric Clinic</a>
+			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Pediatric Clinic<span class="glyphicon glyphicon-plus pull-right"></span></a>
 			                </h4>
 			            </div>
 			            <div id="collapseTwo" class="panel-collapse collapse">
@@ -222,7 +222,7 @@
 			        <div class="panel panel-default hoverpanel3">
 			            <div class="panel-heading custompanel">
 			                <h4 class="panel-title">
-			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Dental Clinic</a>
+			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Dental Clinic<span class="glyphicon glyphicon-plus pull-right"></span></a>
 			                </h4>
 			            </div>
 			            <div id="collapseThree" class="panel-collapse collapse">
@@ -234,7 +234,7 @@
 			        <div class="panel panel-default hoverpanel4">
 			            <div class="panel-heading custompanel">
 			                <h4 class="panel-title">
-			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Orthopedic Clinic</a>
+			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Orthopedic Clinic<span class="glyphicon glyphicon-plus pull-right"></span></a>
 			                </h4>
 			            </div>
 			            <div id="collapseFour" class="panel-collapse collapse">
@@ -246,7 +246,7 @@
 			        <div class="panel panel-default hoverpanel5">
 			            <div class="panel-heading custompanel">
 			                <h4 class="panel-title">
-			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Gynaecological Clinic</a>
+			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Gynaecological Clinic<span class="glyphicon glyphicon-plus pull-right"></span></a>
 			                </h4>
 			            </div>
 			            <div id="collapseFive" class="panel-collapse collapse">
@@ -258,7 +258,7 @@
 			        <div class="panel panel-default hoverpanel6">
 			            <div class="panel-heading custompanel">
 			                <h4 class="panel-title">
-			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Pirmary Health Care</a>
+			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Pirmary Health Care<span class="glyphicon glyphicon-plus pull-right"></span></a>
 			                </h4>
 			            </div>
 			            <div id="collapseSix" class="panel-collapse collapse">
@@ -270,7 +270,7 @@
 			        <div class="panel panel-default hoverpanel7">
 			            <div class="panel-heading custompanel">
 			                <h4 class="panel-title">
-			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Dental Clinic</a>
+			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Dental Clinic<span class="glyphicon glyphicon-plus pull-right"></span></a>
 			                </h4>
 			            </div>
 			            <div id="collapseSeven" class="panel-collapse collapse">
@@ -282,7 +282,7 @@
 			        <div class="panel panel-default hoverpanel8">
 			            <div class="panel-heading custompanel">
 			                <h4 class="panel-title">
-			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Laryngological CLinic</a>
+			                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Laryngological CLinic<span class="glyphicon glyphicon-plus pull-right"></span></a>
 			                </h4>
 			            </div>
 			            <div id="collapseEight" class="panel-collapse collapse">
@@ -397,6 +397,14 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="bxslider/jquery.bxslider.min.js"></script>
     <script>
+    	 jQuery(function ($) {
+	      $('#accordion').on('show.bs.collapse', function (e) {
+	       $(e.target).prev().find('.glyphicon').toggleClass('glyphicon-plus glyphicon-minus');
+	      })
+	      $('#accordion').on('hidden.bs.collapse', function (e) {
+	       $(e.target).prev().find('.glyphicon').toggleClass('glyphicon-plus glyphicon-minus');
+	      });
+	  	});
     	$(document).ready(function(){
     		$('.bxslider').bxSlider({
     		mode: 'fade',

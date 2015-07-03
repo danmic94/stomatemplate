@@ -198,7 +198,11 @@ ul.bxslider {
 }
 
 p.justify {
+	font-family: 'Roboto', sans-serif;
 	text-align: justify;
+	color: #a3a3a3;
+	font-size: 13px;
+	font-weight: 300;
 }
 
 .panel-default>.panel-heading{
@@ -329,8 +333,8 @@ div.news > h5 {
 	color: #525252;
 }
 
-#accordion {
-	margin-bottom: 80px;
+.main-acordion {
+	margin-top: 40px;
 }
 
 .text {
