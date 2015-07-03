@@ -556,6 +556,23 @@ ul.right-one > li {
 	font-weight: 300;
 }
 
+.bottom-copyright {
+	background-color: #f5f5f5 ;
+	color: #8c8b8b;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+
+div.bottom-copyright span {
+	margin-top: 10px;
+	padding: 10px;
+	display: inline-block;
+}
+
+div.bottom-copyright img {
+	padding: 10px;
+}
+
 
 
 
