@@ -19,7 +19,7 @@
 .company-name {
 	font-family: 'Roboto', sans-serif;
 	font-size: 32px;
-	font-weight: 300;
+	font-weight: 100;
 	font-style: normal;
 	color: #8d8d8d;
 	display: inline-block;
@@ -157,7 +157,7 @@ ul.bxslider {
 .purple { border-color: #b07cc5;}
 .green { border-color: #75dda1;}
 
-/*Aligning the icons in circles*/
+/*Aligning the icons in rings*/
 .align-user {
 	margin-left: 32%;
 	margin-top: 28%;
@@ -179,6 +179,14 @@ ul.bxslider {
 	font-style: normal;
 	color: #7eb7e5;
 	font-size: 17px;
+}
+
+.greyh3bottom {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #838383;
+	font-size: 14px;
 }
 
 .greyh3 {
@@ -284,20 +292,20 @@ hr.morespace {
 div.news > p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	font-weight: 200;
+	font-weight: 300;
 	text-align: justify;
 	color: #888888;
 }
 
 div.news > h3.secondary {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-weight: 200;
 	color: #414141;
 }
 
 div.news > h5 {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-weight: 200;
 	color: #525252;
 }
 
@@ -491,7 +499,62 @@ ul.adress li > a {
 .soc-pinterest:before {
     content:'d';
 }
+.custom-padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
+.right-one {
+	list-style: none;
+	padding: 0;
+}
+
+ul.right-one > li {
+	padding-bottom: 30px;
+}
+
+.blue-arrow {
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 5px;
+	padding-right: 2px;
+}
+
+.subtext {
+
+	margin-left: 15px;
+	font-size: 11px;
+	margin-top: 10px;
+}
+
+.lower-name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 27px;
+	font-weight: 100;
+	font-style: normal;
+	color: #8d8d8d;
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.lower-logo {
+	display: inline-block;
+}
+
+.last-text {
+	padding-top: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #5f5f5f;
+}
+
+.lightgray {
+	font-family: 'Roboto', sans-serif;
+	color: #5f5f5f;
+	font-weight: 300;
+}
 
 
 
