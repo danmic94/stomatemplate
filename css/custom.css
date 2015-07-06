@@ -267,12 +267,15 @@ div.main-acordion > div.panel{
 }
 .hoverpanel6:hover {
 	border-color: aquamarine;
+	color: aquamarine;
 }
 .hoverpanel7:hover {
 	border-color: hotpink;
+	color: hotpink;
 }
 .hoverpanel8:hover {
 	border-color: #19af92;
+	color: #19af92;
 }
 
 .colapse-noborder {
@@ -441,7 +444,7 @@ ul.adress li > a {
     font-weight: normal;
     font-style: normal;
 }
- 
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;
@@ -615,8 +618,3 @@ div.bottom-copyright span {
 div.bottom-copyright img {
 	padding: 10px;
 }
-
-
-
-
-
